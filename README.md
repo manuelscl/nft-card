@@ -2,7 +2,7 @@
 
 Hi, devs!
 
-This proyect was useful to improve and practice my HTML and CSS skill.
+This proyect was really useful to improve and practice my HTML and CSS skill.
 
 ## Table of contents
 
