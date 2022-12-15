@@ -18,7 +18,18 @@
             font-family: 'Outfit', sans-serif;
         }
         body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
             background: hsl(217, 54%, 11%);
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            align-items: center;
         }
         .nft-card {
             max-width: 340px;
@@ -127,6 +138,19 @@
         .nft-author p a:hover {
             color:hsl(178, 100%, 50%);
         }
+        .attribution {
+            font-size: 16px;
+            color: white;
+        }
+        .attribution a {
+            font-weight: 600;
+            color: hsl(215, 51%, 70%);
+            text-decoration: none;
+        }
+        .attribution a:active {
+            color: hsl(178, 100%, 50%);
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -157,5 +181,9 @@
             </div>
         </section>
     </main>
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+    </footer>
 </body>
 </html>
