@@ -21,7 +21,7 @@
             background: hsl(217, 54%, 11%);
         }
         .nft-card {
-            max-width: 320px;
+            max-width: 340px;
             background: hsl(216, 50%, 16%);
             padding: 20px 20px;
         }
@@ -52,6 +52,25 @@
             padding: 20px 0;
             border-bottom: 1px solid hsl(215, 32%, 27%);
         }
+        .nft-price, .nft-dueDate {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+        }
+        .nft-price {
+            font-weight: 400;
+            color:hsl(178, 100%, 50%);
+        }
+        .nft-dueDate {
+            color:hsl(215, 51%, 70%);
+        }
+        .nft-price img {
+            width: 10px;
+        }
+        .nft-dueDate img {
+            width: 16px;
+        }
         .nft-author {
             display: flex;
             align-items: center;
@@ -60,6 +79,17 @@
         }
         .nft-author img {
             width: 40px;
+            border: 1px solid white;
+            border-radius: 50%;
+        }
+        .nft-author p {
+            font-size: 14px;
+            font-weight: 300;
+            color:hsl(215, 51%, 70%);
+        }
+        .nft-author p a {
+            color: white;
+            text-decoration: none;
         }
     </style>
 </head>
