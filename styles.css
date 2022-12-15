@@ -8,9 +8,8 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 40px;
     background: hsl(217, 54%, 11%);
     padding: 20px;
 }
@@ -125,7 +124,7 @@ body {
 .nft-author p a:hover {
     color:hsl(178, 100%, 50%);
 }
-.attribution {
+/* .attribution {
     font-size: 16px;
     color: white;
 }
@@ -137,4 +136,4 @@ body {
 .attribution a:active {
     color: hsl(178, 100%, 50%);
     text-decoration: underline;
-}
+} */
