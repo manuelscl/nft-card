@@ -21,7 +21,17 @@ body {
     max-width: 340px;
     background: hsl(216, 50%, 16%);
     border-radius: 10px;
+    box-shadow: 
+    0 0 0 35px rgba(0, 0, 0, 0.06),
+    0 0 0 15px rgba(0, 0, 0, 0.08);
     padding: 20px 20px;
+    transition: 0.3s ease;
+}
+.nft-card:hover {
+    box-shadow:
+    0 0 0 35px rgba(0, 0, 0, 0.06),
+    0 0 18px 15px rgba(255, 255, 255, 0.010);
+    transform: translate(0, -10px);
 }
 .nft-view-img {
     display: flex;
@@ -40,6 +50,7 @@ body {
     transition: 0.3s ease;
 }
 .view-img-icon {
+    width: 44px;
     opacity: 0;
     transition: 0.3s ease;
 }
@@ -84,11 +95,11 @@ body {
 .nft-price, .nft-dueDate {
     display: flex;
     align-items: center;
+    font-size: 16px;
     gap: 8px;
-    font-size: 14px;
 }
 .nft-price {
-    font-weight: 400;
+    font-weight: 600;
     color:hsl(178, 100%, 50%);
 }
 .nft-dueDate {
@@ -107,12 +118,12 @@ body {
     margin-top: 20px;
 }
 .nft-author img {
-    width: 40px;
+    width: 42px;
     border: 1px solid white;
     border-radius: 50%;
 }
 .nft-author p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     color:hsl(215, 51%, 70%);
 }
