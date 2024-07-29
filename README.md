@@ -4,7 +4,7 @@
 
 ### Welcome! 👋  
 
-This project is a solution to the [NFT Card](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz/hub) on Frontend Mentor.
+This project is a solution to the [NFT Card](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) on Frontend Mentor.
   
 
 **Preview solution:** [nft-card](https://manuelscl.github.io/nft-card)
